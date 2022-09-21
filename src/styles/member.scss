@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Inter';
+  //src: url('../fonts/Inter.ttf');
+}
+
+@import 'variables';
+@import 'scaffolding';
+
+.headingBecomeAMember{
+  color: black;
+}
+
+.textBecomeAMember{
+  color: black;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+.textLabel{
+  color: black;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.getJokesEverydayButton{
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+  border-color: black;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 250px;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px;
+}
+
+.getJokesEverydayButton:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.successfullRegistration{
+  color: black;
+}
+
