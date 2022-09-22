@@ -5,3 +5,19 @@
 
 @import 'variables';
 @import 'scaffolding';
+
+.headingWelcome{
+  color: black;
+  font-size: 30px;
+}
+
+.textWelcome{
+  color: black;
+}
+
+.randomDog {
+  width: auto !important; /*override the width below*/
+  max-width: 678px;
+  position: center;
+  clear: both;
+}
