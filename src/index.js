@@ -30,5 +30,6 @@ function fetchRandomDog(randomDog) {
             dogImg.setAttribute('alt', 'Picture of random Dog');
             randomDog.appendChild(dogImg);
         })
+        // eslint-disable-next-line no-console
         .catch(err => console.log(err))
 }

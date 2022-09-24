@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Inter';
-  //src: url('../fonts/Inter.ttf');
-}
-
 @import 'variables';
 @import 'scaffolding';
 
@@ -16,8 +11,6 @@
 }
 
 .randomDog {
-  width: auto !important; /*override the width below*/
-  max-width: 678px;
   position: center;
   clear: both;
 }
