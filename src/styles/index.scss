@@ -1,7 +1,16 @@
-@font-face {
-  font-family: 'Inter';
-  //src: url('../fonts/Inter.ttf');
-}
-
 @import 'variables';
 @import 'scaffolding';
+
+.headingWelcome{
+  color: black;
+  font-size: 30px;
+}
+
+.textWelcome{
+  color: black;
+}
+
+.randomDog {
+  position: center;
+  clear: both;
+}

@@ -4,6 +4,7 @@ module.exports = {
   // Source files
   src: path.resolve(__dirname, '../src'),
 
+  // Source js files
   js: path.resolve(__dirname, '../src/js'),
 
   // Production build files

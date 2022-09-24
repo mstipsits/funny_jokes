@@ -24,6 +24,7 @@ function fetchJoke(joke) {
             joke.innerHTML = data.joke;
         })
         .catch((err) => {
+            // eslint-disable-next-line no-console
             console.log(err);
             joke.innerHTML = "It seems that there are no jokes available :(";
             likeButton.setAttribute('disabled', "disabled");

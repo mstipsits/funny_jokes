@@ -11,7 +11,7 @@
 <body>
 <div class="navigation-container">
     <div class="navbar">
-        <img src="/assets/logo.png" class="logo" onclick="window.location.href='/index.html'"/>
+        <img src="assets/logo.png" class="logo" onclick="window.location.href='index.html'" alt="Logo of Funny Jokes"/>
         <nav>
             <ul id="menuList">
                 <li><a href="jokes.html">Jokes</a></li>
@@ -19,13 +19,13 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <img id="menuIcon" src="../assets/menu.png" class="menu-icon">
+        <img id="menuIcon" src="assets/menu.png" class="menu-icon" alt="Menu icon">
     </div>
 </div>
+
 <div id="heading">
     <h1 class="headingBecomeAMember">Become a Member for free</h1>
-    <h2 class="textBecomeAMember">All you have to do is to sign up and you will get the funniest joke every day per
-        Mail!</h2>
+    <h2 class="textBecomeAMember">All you have to do is to sign up and you will get the funniest joke every day via mail!</h2>
 </div>
 
 <form id="registerForm" name="registerForm">
@@ -37,6 +37,8 @@
     <input type="text" id="userName" name="userName" required><br>
     <label class="textLabel" for="password">Password:</label><br>
     <input type="password" id="password" name="password" required><br>
+    <label class="textLabel" for="retypePassword">Retype password:</label><br>
+    <input type="password" id="retypePassword" name="retypePassword" required><br>
     <label class="textLabel" for="emailAddress">E-Mail Address:</label><br>
     <input type="email" id="emailAddress" name="emailAddress" required><br><br>
     <input type="checkbox" id="age" name="age" value="age">
