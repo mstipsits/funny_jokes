@@ -32,6 +32,7 @@ function fetchJoke(joke) {
 }
 
 function addToFavorites() {
+    toggleViewMyFavoriteJokes(false)
     let joke = document.getElementById("joke");
     let li = document.createElement("li");
     li.className = "favoriteElement";
@@ -43,5 +44,15 @@ function addToFavorites() {
 function removeElement(elementToRemove) {
     if (confirm("Do you really want to delete the joke from your List?")) {
         favoriteJokesList.removeChild(elementToRemove);
+        if (favoriteJokesList.childNodes.length === 0){
+            toggleViewMyFavoriteJokes(true);
+        }
     }
+}
+
+function toggleViewMyFavoriteJokes(isHidden) {
+    let headingMyFavoriteJokes = document.getElementById("headingMyFavoriteJokes");
+    headingMyFavoriteJokes.hidden = isHidden;
+    let textMyFavoriteJokes = document.getElementById("textMyFavoriteJokes");
+    textMyFavoriteJokes.hidden = isHidden;
 }
