@@ -38,7 +38,7 @@ function addToFavorites() {
     li.className = "favoriteElement";
     li.innerText = joke.innerHTML;
     li.addEventListener("click", () => removeElement(li));
-    favoriteJokesList.appendChild(li);
+    favoriteJokesList.prepend(li);
 }
 
 function removeElement(elementToRemove) {
