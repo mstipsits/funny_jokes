@@ -1,11 +1,11 @@
 @import 'variables';
 @import 'scaffolding';
 
-.headingBecomeAMember{
+.headingBecomeAMember {
   color: black;
 }
 
-.textBecomeAMember{
+.textBecomeAMember {
   color: black;
 }
 
@@ -21,13 +21,12 @@ input:valid {
   border: 2px solid black;
 }
 
-.textLabel{
+.textLabel {
   color: black;
   text-align: left;
-  padding-top: 5px;
 }
 
-.getJokesEverydayButton{
+.getJokesEverydayButton {
   background-color: green;
   text-align: center;
   text-decoration: none;
@@ -42,12 +41,12 @@ input:valid {
   padding: 8px;
 }
 
-.getJokesEverydayButton:hover{
+.getJokesEverydayButton:hover {
   background-color: #4CAF50; /* Green */
   color: white;
 }
 
-.successfullRegistration{
+.successfullRegistration {
   color: black;
 }
 
